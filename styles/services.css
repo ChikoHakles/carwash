@@ -1,0 +1,68 @@
+@font-face {
+    font-family: Poppins;
+    src: url(/styles/Poppins/Poppins-Medium.ttf);
+}
+:root{
+    --dark-blue: #25316D;
+    --yellow: #FEF5AC;
+    --light-blue: #D6EBF4;
+}
+body {
+    background-color: #F5F5F5;
+    font-family: Poppins;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+#footer {
+    background-color: var(--dark-blue);
+    color: white;
+}
+.bg-circle {
+    width: 15rem;
+    height: 15rem;
+
+    background: #97D2EC;
+    filter: blur(250px);
+}
+.btn-klaim {
+    background-color: var(--dark-blue);
+    color: white;
+}
+.btn-ketentuan {
+    background-color: white;
+    color: gray;
+}
+.card {
+    background-color: var(--light-blue);
+    border: none;
+}
+.layanan-img {
+    width: 100px;
+    transform: translate(5rem, 5rem);
+}
+.navbar {
+    background-color: transparent;
+}
+.nav-item:hover {
+    background-color: var(--dark-blue);
+    border-radius: .5rem;
+}
+.nav-item:hover a {
+    color: white;
+}
+.nomor {
+    background-color: var(--dark-blue);
+    height: 3.1rem;
+    width: 3.1em;
+    position: relative;
+    color: white;
+}
+.quarter-circle {
+    background-color: var(--dark-blue);
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
+    transform: translate(-5rem, -5rem);
+}

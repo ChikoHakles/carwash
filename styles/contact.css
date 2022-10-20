@@ -1,0 +1,70 @@
+@font-face {
+    font-family: Poppins;
+    src: url(/styles/Poppins/Poppins-Medium.ttf);
+}
+:root{
+    --dark-blue: #25316D;
+    --yellow: #FEF5AC;
+    --light-blue: #D6EBF4;
+}
+body {
+    background-color: #F5F5F5;
+    font-family: Poppins;
+}
+a {
+    text-decoration: none;
+}
+#footer {
+    background-color: var(--dark-blue);
+    color: white;
+}
+#footer a{
+    color: white;
+}
+#kontak {
+    margin: 3rem 0 15rem;
+}
+#message {
+    border: none;
+    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.6);
+}
+@media screen and (min-width: 768px){
+    #kontak {
+        margin: 10rem 0 28rem;
+    }
+}
+.kontak-item a {
+    color: black;
+}
+.kontak-item i {
+    height: 3rem;
+    width: 3rem;
+}
+.kontak-item:hover {
+    background-color: var(--dark-blue);
+    color: white;
+}
+.kontak-item:hover a {
+    color: white;
+}
+.contact-img {
+    z-index: -1;
+}
+.input-group-text {
+    background: none;
+    color: var(--dark-blue);
+}
+.navbar {
+    background-color: transparent;
+}
+.nav-item:hover {
+    background-color: var(--dark-blue);
+    border-radius: .5rem;
+}
+.nav-item:hover a {
+    color: white;
+}
+.submit {
+    background-color: var(--dark-blue);
+    color: white;
+}

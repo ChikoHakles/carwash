@@ -1,0 +1,47 @@
+@font-face {
+    font-family: Poppins;
+    src: url(/styles/Poppins/Poppins-Medium.ttf);
+}
+:root{
+    --dark-blue: #25316D;
+    --yellow: #FEF5AC;
+    --light-blue: #D6EBF4;
+}
+body {
+    background-color: #F5F5F5;
+    font-family: Poppins;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+#footer {
+    background-color: var(--dark-blue);
+    color: white;
+}
+.about-img {
+    height: 400px;
+}
+.card-img-top {
+    border-radius: 2rem 0 2rem 0;
+}
+.employee-card {
+    background-color: var(--yellow);
+    border-radius: 2rem 0 2rem 0;
+    overflow: hidden;
+    border: none;
+}
+.navbar {
+    background-color: transparent;
+}
+.nav-item:hover {
+    background-color: var(--dark-blue);
+    border-radius: .5rem;
+}
+.nav-item:hover a {
+    color: white;
+}
+.why-card {
+    background-color: var(--yellow);
+    border: none;
+}
